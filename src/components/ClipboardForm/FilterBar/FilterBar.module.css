@@ -1,0 +1,41 @@
+.bar {
+    display: grid;
+    gap: 14px;
+}
+
+.search {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    color: var(--text);
+    background: var(--surface);
+    font: inherit;
+    outline: none;
+}
+
+.search:focus {
+    border-color: var(--accent);
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filterButton {
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 12px;
+    color: var(--muted);
+    background: var(--surface);
+    cursor: pointer;
+}
+
+.filterButton:hover,
+.active {
+    color: white;
+    border-color: var(--accent);
+    background: var(--accent);
+}

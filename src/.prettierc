@@ -1,0 +1,6 @@
+{
+    "signleQuote": true,
+    "semi": true,
+    "printWidth": 90,
+    "trailingComma": "none"
+}
